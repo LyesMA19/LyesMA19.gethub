@@ -1,0 +1,41 @@
+h1{
+    text-align: center;
+}
+nav{
+    border: 1px solid black;
+    text-align: center;
+    color: white;
+}
+
+.btn{
+    display :inline-block;
+    padding: 20px;
+    background-color: rgba(0, 170, 0);
+    margin:5px;
+}
+.btn:hover{
+    background-color: rgba(255, 255, 4);
+    
+}
+.btn > ul{
+    display: none;
+    background-color: rgba(74, 74, 197);
+    position: absolute;
+}
+
+.btn:hover >ul{
+    display: block;
+}
+
+nav ul{
+    
+    list-style: none;
+    padding: 0px;
+}
+.btn > ul > li{
+    padding: 20px;
+}
+.btn > ul > li:hover{
+    background-color: red;
+    color: black;
+}
